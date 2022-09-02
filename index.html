@@ -1,0 +1,66 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            
+            <img  class="logo" src="/Imágenes-encriptador/Logo.png" alt="Logo de alura con la inicial da letra a">
+            <h1> Desafío 1- Encriptador de Texto</h1>
+        </header>
+        <main>
+            <section class="seccion1">
+                <textarea class="area" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="contenedor-informacion">
+                    <h2 class="informacion">&starf; Solo letras minúsculas y sin acentos.</h2>
+                </div>
+                <div class="botones">
+                    <button class="encriptar">
+                        ENCRIPTAR
+                    </button>
+                    <button class="desencriptar">
+                        DESENCRIPTAR
+                    </button>
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="muneco">
+                    <img src="/Imágenes-encriptador/Muñeco.png" alt="Muneco de Alura">
+                </div>
+                <div class="titulo">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                </div>
+                <div class="parrafo">
+                    <p>Ingrese el texto que desea encriptar o desencriptar</p>
+                </div>
+
+                <div class="resultado">
+                    <h3>Mensaje encriptado</h3>
+                    <p class="texto-resultado"></p>
+                </div>
+                <div class="contenedor-copiar">
+                    <button class="copiar">Copiar</button>
+                </div>
+
+            </section>
+
+        </main>
+        <script src="script.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <footer>
+            <section class="contenedor-iconos">
+                <div class="iconos">
+                    <a href="https://github.com/Nicolaasp40"><img src="/Imágenes-encriptador/github.png" alt="logo de gitHub"></a>
+                </div>
+            </section>
+        </footer>
+    </body>
+</html>
